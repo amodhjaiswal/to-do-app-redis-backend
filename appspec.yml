@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/backend
+    destination: /home/ubuntu
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
